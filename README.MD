@@ -7,9 +7,9 @@ El proyecto implementa un flujo completo que parte de la generación del dataset
 ## Flujo del proyecto
 
 ```text
-                 ┌──────────────────────────┐
+                 ┌───────────────────────────┐
                  │ genera_train_validation.py│
-                 └────────────┬─────────────┘
+                 └────────────┬──────────────┘
                               │
                               ▼
                     train.jsonl
@@ -328,25 +328,6 @@ Se requiere tener instalado:
 * Dependencias necesarias para el entrenamiento
 * Dependencias necesarias para ejecutar la API
 
-Se recomienda utilizar un entorno virtual de Python:
-
-```powershell
-python -m venv .venv
-```
-
-Activación en Windows:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Posteriormente instalar las dependencias:
-
-```powershell
-pip install -r requirements.txt
-```
-
-> El archivo `requirements.txt` debe contener las versiones de las librerías utilizadas por el proyecto.
 
 ---
 
