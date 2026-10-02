@@ -1,0 +1,117 @@
+==========================================
+Variables de entorno y credenciales
+==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+==========================================
+Modelos de lenguaje y checkpoints
+==========================================
+
+llama-intent/
+llama-intent-merged/
+llama-gguf/
+
+Pesos y modelos
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.ggml
+*.onnx
+*.model
+*.h5
+*.keras
+
+Adaptadores LoRA y checkpoints de entrenamiento
+
+adapter_model.*
+adapter_config.json
+checkpoint-*/
+runs/
+wandb/
+mlruns/
+
+==========================================
+Código fuente de llama.cpp
+==========================================
+Ignora la carpeta completa porque normalmente
+conviene clonarla por separado y no subirla
+como parte de tu proyecto.
+
+llama.cpp/
+
+==========================================
+Python
+==========================================
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+Entornos virtuales
+
+.venv/
+venv/
+env/
+ENV/
+
+Herramientas y pruebas
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+==========================================
+Datos de entrenamiento y validación
+==========================================
+Descomenta si no quieres versionar estos datos:
+train.jsonl
+validation.jsonl
+Archivos de datos temporales
+
+*.tmp
+*.temp
+*.log
+
+==========================================
+Windows y editores
+==========================================
+
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+==========================================
+Archivos temporales y backups
+==========================================
+
+*.bak
+*.old
+*.orig
+.backup
+~$
