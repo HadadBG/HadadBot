@@ -1,4 +1,4 @@
-# Llama Intent Classifier
+# HadadBot
 
 Sistema de clasificación de intenciones basado en **Llama**, utilizando fine-tuning para identificar automáticamente el propósito de los mensajes recibidos.
 
